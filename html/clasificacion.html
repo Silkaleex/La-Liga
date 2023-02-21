@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clasificacion</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="bg-clasificacion">
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        ></button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link text-white" href="../index.html">Home</a>
+            <a class="nav-link text-white" href="./partidos.html">Partidos</a>
+            <a class="nav-link text-white" href="./clasificacion.html"
+              >Clasificacion</a
+            >
+            <a class="nav-link text-white" href="./informacion.html"
+              >Informacion</a
+            >
+            <a class="nav-link text-white" href="./equipos.html">Equipos</a>
+            <a class="nav-link text-white" href="./estadisticas.html"
+              >Estadisticas</a
+            >
+
+            <span
+              ><a href="../index.html"
+                ><img
+                  src="https://imgs.search.brave.com/ELI38qG7dvXBfikxLfC8PIev5BaRixZ9WBRHbMZ11c8/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9hc3Nl/dHMubGFsaWdhLmNv/bS9hc3NldHMvbG9n/b3MvbGFsaWdhLXYt/bmVnYXRpdm8vbGFs/aWdhLXYtbmVnYXRp/dm8tMTIwMHgxMjAw/LnBuZw"
+                  alt="LogoLiga"
+                  class="imagen2" /></a
+            ></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 class="txt-clas border-top border-bottom prin text-center">
+        La clasificación de los equipos de la liga
+      </h1>
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th>Posicion</th>
+            <th></th>
+            <th>CLUB</th>
+            <th>V</th>
+            <th>E</th>
+            <th>D</th>
+            <th>GF</th>
+            <th>GC</th>
+            <th>DG</th>
+            <th>PTS</th>
+          </tr>
+        </thead>
+        <tbody id="element"></tbody>
+      </table>
+    </div>
+    <div class="leyendas">
+      <div class="leyenda1">
+        <p>Champions Leage 🟩</p>
+        <p>Europa Leage 🟨</p>
+        <p>Conference Leage 🟧</p>
+        <p>Descenso 🟥</p>
+        <p>V:Victorias 🔼</p>
+      </div>
+      <div class="leyenda2">
+        <p>D:Derrotas🔽</p>
+        <p>E:Empates 👍🏻</p>
+        <p>GF:Goles a favor 🙏🏻</p>
+        <p>GC:Goles en contra 😒</p>
+        <p>PTS:Puntos 💯</p>
+      </div>
+    </div>
+    <footer class="mf">
+      <h6 class="tp">Todos los derechos reservados ©</h6>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../javascript/clasificacion.js"></script>
+    <script src="../javascript/tablaClasificacion.js"></script>
+  </body>
+</html>

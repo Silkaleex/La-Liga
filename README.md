@@ -50,4 +50,12 @@ Para terminar ponemos mas condiciones para nuestros input de radio en el que una
 ### Por ultimo ponemos esta linea de codigo para que filtre el contenido dentro de nuestra funcion de crearTabla una vez le demmos al boton con el evento creado
 ![img19](https://user-images.githubusercontent.com/82760991/220393801-8a462f28-f4a0-4b0c-88d0-3ca997307406.PNG)
 
+## Wireframes
+![wireframes](https://user-images.githubusercontent.com/82760991/220403504-383fdeab-b823-4d70-9dd5-6281142e1460.png)
 
+# ROADMAP
+![IMG20230221171747](https://user-images.githubusercontent.com/82760991/220401076-0e1cdeda-a724-42eb-bcf6-47420dc0094f.jpg)
+## HTML5, CSS3, JAVASCRIPT, BOOTSTRAP
+
+## TO DO
+### El diseño, mejorar el filtrado la estructura de informacion y otros aspectos que se presenten en un futuro.

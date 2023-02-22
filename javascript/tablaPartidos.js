@@ -76,15 +76,7 @@ function crearTabla(table) {
       "https://crests.football-data.org/" + table[i].awayTeam.id + ".svg"
     );
     escudoV.classList.add("imagen");
-
     // console.log(equipoV);
-
-    //resultado equipo Local
-    // let reslt = document.createElement("p");
-    // reslt.innerHTML =
-    //   table[i].score.fullTime.homeTeam + "-" + table[i].score.fullTime.awayTeam;
-    // reslt.classList.add("centrado");
-
     let reslt =
       table[i].score.fullTime.homeTeam +
       " - " +
@@ -169,7 +161,6 @@ function filtrado(equipoS) {
     }
   });
   console.log(datosEquipo);
-
   if (datosEquipo.length === 0) {
     return (
       (alerta1.style.display = "block"),

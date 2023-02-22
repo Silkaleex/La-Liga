@@ -2,19 +2,20 @@
 
 ## Detalles del proyecto, Descripcion Funcional
 
-### Home
+## Home
 
-#### Entrando por primera vez en esta pagina web nos dara la bienvenida, Ademas veremos una barra de navegación para entrar en otros enlaces y un carrusel de las imagenes de la liga.
+### Entrando por primera vez en esta pagina web nos dara la bienvenida, Ademas veremos una barra de navegación para entrar en otros enlaces y un carrusel de las imagenes de la liga.
 
 ![img1](https://user-images.githubusercontent.com/82760991/220388573-302e506a-f6e0-46f0-a984-511563134dbf.PNG)
-gi p### Por ultimo en la parte de abajo hay una descripción de ultimas noticias que te enviaran también a los demás enlaces
-![img2](https://user-images.githubusercontent.com/82760991/220389413-7bac5503-bb3c-4fe4-9381-7b8e5830e6a6.PNG)
+### Por ultimo en la parte de abajo hay una descripción de ultimas noticias que te enviaran también a los demás enlaces
+![img2](https://user-images.githubusercontent.com/82760991/220694236-0d8b2725-2735-4102-9da6-e7edaad81fa4.PNG)
+
 
 ## Partidos
 
 ### En esta parte tendrás toda la información actual de todos los partidos tanto si jugaron como equipo local como visitante el resultado jornada y cuando se jugó dicho partido. Contiene una barra de filtrado que puedes buscar a tu jugador favorito tanto sus partidos ganados perdidos empatados y proximas partidos a los que vaya a jugar.
 
-![img3](https://user-images.githubusercontent.com/82760991/220390062-f2bdd71f-557f-41bf-a503-2ad2fb0f330a.PNG)
+![img3](https://user-images.githubusercontent.com/82760991/220694333-ee522bdd-54d7-4cc5-b475-f2ce40e650b3.PNG)
 
 ## Clasificación
 
@@ -26,7 +27,7 @@ gi p### Por ultimo en la parte de abajo hay una descripción de ultimas noticias
 
 ### En este apartado describimos las ultimas noticias mas destacadas de la liga contando todos los detalles.
 
-![img5](https://user-images.githubusercontent.com/82760991/220390367-01b1c391-fd8e-49d3-b955-860f67a5934b.PNG)
+![img5](https://user-images.githubusercontent.com/82760991/220694576-808cfc27-83f3-4a61-9b03-31eccfe108b7.PNG)
 
 ## Equipos
 
@@ -38,7 +39,7 @@ gi p### Por ultimo en la parte de abajo hay una descripción de ultimas noticias
 
 ### Por ultimo Creamos 2 tablas de estadísticas con los 5 equipos con mayores goles como partido local tanto en goles como partidos y una media de cada equipo,en la otra tabla contiene los 5 equipos que menos goles encajaron como visitante con sus goles y sus partidos.
 
-![img7](https://user-images.githubusercontent.com/82760991/220390600-db8928f0-4f11-4105-be5b-f1c3da4b0ca5.PNG)
+![img7](https://user-images.githubusercontent.com/82760991/220694470-b348e42f-2bdc-4d04-8aba-f421f5ffab78.PNG)
 
 # Descripcion Técnica
 
@@ -63,9 +64,10 @@ gi p### Por ultimo en la parte de abajo hay una descripción de ultimas noticias
 ### Creamos una funcion, Vamos a crear contenido en nuestro Tbody a traves de javascript, en nuestro tbody le añadimos una etiqueta ID para añadir contenido.
 
 ![img11](https://user-images.githubusercontent.com/82760991/220392241-e8be1504-4599-42c7-b7e4-6c80841ef30d.PNG)
-![img12](https://user-images.githubusercontent.com/82760991/220392310-e1b93177-8d48-405e-a4d6-fc9a14de87e9.PNG)
-![img13](https://user-images.githubusercontent.com/82760991/220392338-d9204f9c-5584-460c-86e9-6832f3a1f233.PNG)
-![img14](https://user-images.githubusercontent.com/82760991/220392388-cf001e78-3fd2-45e3-b00b-4e8122fb8c77.PNG)
+![img12](https://user-images.githubusercontent.com/82760991/220698410-67bfa871-0db6-475b-bcfd-ea0df4e1c432.PNG)
+![img13](https://user-images.githubusercontent.com/82760991/220698418-cb589425-43a7-48c2-8d68-c3ff871f3435.PNG)
+![img14](https://user-images.githubusercontent.com/82760991/220698431-19d7a416-f2f9-4488-ac5c-6a543577e524.PNG)
+
 
 ### Con este contenido tambien podemos crear la tabla de clasificacion, cogiendo los datos que creamos de la clasificación.
 
@@ -85,10 +87,6 @@ Para terminar ponemos mas condiciones para nuestros input de radio en el que una
 ### Por ultimo ponemos esta linea de codigo para que filtre el contenido dentro de nuestra funcion de crearTabla una vez le demmos al boton con el evento creado
 
 ![img19](https://user-images.githubusercontent.com/82760991/220393801-8a462f28-f4a0-4b0c-88d0-3ca997307406.PNG)
-
-## Wireframes
-
-![wireframes](https://user-images.githubusercontent.com/82760991/220403504-383fdeab-b823-4d70-9dd5-6281142e1460.png)
 
 # ROADMAP
 

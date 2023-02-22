@@ -39,7 +39,7 @@ let matches = partidos.matches;
 let alerta1 = document.getElementById("alert");
 alerta1.style.display = "none";
 
-let linearGradientString = "linear-gradient(to right, #fb8b24, #faa307)";
+let linearGradientString = "linear-gradient(to right, #00b4d8, #caf0f8)";
 
 function crearTabla(table) {
   let tabla = document.getElementById("Tbody");
@@ -78,11 +78,26 @@ function crearTabla(table) {
     escudoV.classList.add("imagen");
 
     // console.log(equipoV);
+
     //resultado equipo Local
-    let reslt = document.createElement("p");
-    reslt.innerHTML =
-      table[i].score.fullTime.homeTeam + "-" + table[i].score.fullTime.awayTeam;
-    reslt.classList.add("centrado");
+    // let reslt = document.createElement("p");
+    // reslt.innerHTML =
+    //   table[i].score.fullTime.homeTeam + "-" + table[i].score.fullTime.awayTeam;
+    // reslt.classList.add("centrado");
+
+    let reslt =
+      table[i].score.fullTime.homeTeam +
+      " - " +
+      table[i].score.fullTime.awayTeam;
+    if (reslt === "null - null") {
+      reslt = "Por jugar";
+    } else {
+      reslt.textContent =
+        table[i].score.fullTime.homeTeam +
+        " - " +
+        table[i].score.fullTime.awayTeam;
+    }
+
     // console.log(resltL);
     //resultado equipo Visitante
     // let resltV = document.createElement("p");
@@ -163,8 +178,8 @@ function filtrado(equipoS) {
       (alerta1.style.margin = "2% auto"),
       (alerta1.style.textAlign = "center"),
       (alerta1.style.backgroundImage = linearGradientString),
-      (alerta1.style.textShadow = "0 2px 2px #fff"),
-      (alerta1.style.color = "#9d0208")
+      (alerta1.style.textShadow = "0 2px 2px #000"),
+      (alerta1.style.color = "#caf0f8")
     );
   } else {
     alerta1.style.display = "none";

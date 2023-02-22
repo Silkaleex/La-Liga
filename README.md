@@ -74,7 +74,7 @@ gi p### Por ultimo en la parte de abajo hay una descripción de ultimas noticias
 ### Creamos un Input de tipo radio y un boton en HTML y les ponemos un atributo id en nuestro ID a nuestras etiquetas. Se puede hacer sin boton pero es mejor ponerle un boton ya que el margen de error es menor. En javascript le añadimos el evento AddEventListener a nuestro boton con el evento click, una vez pulsado si escribirmos los valores correctos nos dará dicha información.
 
 Creamos una función con el atributo Id que le pusimos a input y le añadimos el valor value, y seleccionamos varios inputs que los vamos a poner de tipo radio en este caso con querySelector.
-Por ultimo en la parte de filtrado le ponemos condiciones para que se cumpla por ejemplo en este caso que se escriba en minuscula, de lo contrario no cogera datos.
+Por ultimo en la parte de filtrado le ponemos condiciones para que se cumpla por ejemplo en este caso que se escriba en Minúscula, de lo contrario no cogera datos.
 Le añadimos estilos a traves del Dom.
 Para terminar ponemos mas condiciones para nuestros input de radio en el que una vez pulsemos en uno de ellos(Ganados, perdidos, empatados y proximos partidos) nos salga las caracteristicas de que hemos seleccionado de nuestro equipo preferido.
 ![img15](https://user-images.githubusercontent.com/82760991/220392827-f3af8293-274f-404e-8c27-adbf2e92a906.PNG)

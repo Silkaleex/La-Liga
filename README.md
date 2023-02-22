@@ -79,21 +79,19 @@ Creamos una función con el atributo Id que le pusimos a input y le añadimos el
 Por ultimo en la parte de filtrado le ponemos condiciones para que se cumpla por ejemplo en este caso que se escriba en Minúscula, de lo contrario no cogera datos.
 Le añadimos estilos a traves del Dom.
 Para terminar ponemos mas condiciones para nuestros input de radio en el que una vez pulsemos en uno de ellos(Ganados, perdidos, empatados y proximos partidos) nos salga las caracteristicas de que hemos seleccionado de nuestro equipo preferido.
-![img15](https://user-images.githubusercontent.com/82760991/220392827-f3af8293-274f-404e-8c27-adbf2e92a906.PNG)
-![img16](https://user-images.githubusercontent.com/82760991/220392874-7b32d20b-5617-4de6-8673-8059e8164b10.PNG)
-![img17](https://user-images.githubusercontent.com/82760991/220392900-5f60979c-0d64-4987-9bc3-af93a54eefb3.PNG)
-![img18](https://user-images.githubusercontent.com/82760991/220392979-08e2fc13-4997-4740-b555-68cb9e751a05.PNG)
+![img15](https://user-images.githubusercontent.com/82760991/220702283-be0b03ed-52cf-40af-9005-9373d9b8ad47.PNG)
+![img16](https://user-images.githubusercontent.com/82760991/220702330-2089f31e-fac1-4d66-aa41-458d3712c429.PNG)
+![img17![img18](https://user-images.githubusercontent.com/82760991/220702373-e8c4c773-31d7-4b45-98b1-cbe0fa409a8f.PNG)
+](https://user-images.githubusercontent.com/82760991/220702362-0ebd0e74-e155-479b-838f-bc9395719e3f.PNG)
 
 ### Por ultimo ponemos esta linea de codigo para que filtre el contenido dentro de nuestra funcion de crearTabla una vez le demmos al boton con el evento creado
-
-![img19](https://user-images.githubusercontent.com/82760991/220393801-8a462f28-f4a0-4b0c-88d0-3ca997307406.PNG)
+![img19](https://user-images.githubusercontent.com/82760991/220702989-af601967-fade-4b6c-8fd6-dc036700771d.PNG)
 
 # ROADMAP
-
 ![IMG20230221171747](https://user-images.githubusercontent.com/82760991/220401076-0e1cdeda-a724-42eb-bcf6-47420dc0094f.jpg)
-
 ## HTML5, CSS3, JAVASCRIPT, BOOTSTRAP
 
 ## TO DO
-
 ### El diseño, mejorar el filtrado la estructura de informacion y otros aspectos que se presenten en un futuro.
+añadir en la seccion de partidos en los inputs de radio(ganados,perdidos,empatados y proximos) poner una alerta que ponga "selecciona el boton de buscar".
+
